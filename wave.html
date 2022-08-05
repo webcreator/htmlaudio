@@ -1,0 +1,29 @@
+
+<html lang="en">
+  <head>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+
+</head>
+
+
+  <body>
+
+<div id="waveform"></div>
+
+<script type="text/javascript">
+	
+	var wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    waveColor: 'violet',
+    progressColor: 'purple'
+});
+
+	wavesurfer.load('https://cdn-illements.sfo2.digitaloceanspaces.com/products/118/pv76c8018e512697c86a1e.mp3');
+
+</script>
+
+</html>
+
+
+
+
